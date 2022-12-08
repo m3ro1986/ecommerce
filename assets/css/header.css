@@ -88,7 +88,7 @@ nav{
   font-size: 12px;
   font-weight: 700;
   background-color: transparent;
-  color: var(--counter);
+  color: var(--text-color);
   height: 12px;
   width: 32px;
   border-radius: 50%;
