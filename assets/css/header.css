@@ -155,7 +155,7 @@ nav{
         display: flex;
     }
 
-    .menu-box.show ,.bx-home-alt-2{
+    .menu-box.show ,.bx-menu{
         display: none;
     }
 
