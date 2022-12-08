@@ -86,6 +86,7 @@ nav{
   right: 0;
   top: 13px;
   font-size: 12px;
+  font-weight: 700;
   background-color: transparent;
   color: var(--counter);
   height: 12px;
