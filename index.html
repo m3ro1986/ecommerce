@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Academlo Store</title>
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <link rel="shortcut icon" href="/assets/images/favicon.png" type="image/x-icon">
+    <link rel="stylesheet" href="/assets/css/style.css">
+</head>
+
+<body>
+
+    <!--========== Logo Academlo con contorno ==========-->
+    <!-- 
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 48.92 56.48">
+        <title>Academlo Logo</title>
+        <g>
+            <g>
+                <path
+                d="M24.45,56.48,0,42.36V14.12L24.46,0,48.92,14.12V42.36ZM1.89,41.26l22.56,13L47,41.26v-26l-22.56-13-22.56,13Z">
+                </path>
+                <path
+                d="M28.58,15.39H25.16L35.78,36H31.49L20.67,15.71,8.23,38.82H18.94l3-5.43h-3.4l-1.47,2.54h-4l2.69-5.09H25.85l4.28,8H40.67ZM17.23,28.21l3.57-6.6,3.57,6.6Z">
+                </path>
+            </g>
+        </g>
+    </svg>
+    -->
+
+    <!--=========== Logo Academlo sin contorno ==========-->
+    <!--
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 48.92 56.48">
+        <title>Academlo Logo</title>
+        <g>
+          <g>
+            <path
+              d="M28.58,15.39H25.16L35.78,36H31.49L20.67,15.71,8.23,38.82H18.94l3-5.43h-3.4l-1.47,2.54h-4l2.69-5.09H25.85l4.28,8H40.67ZM17.23,28.21l3.57-6.6,3.57,6.6Z">
+            </path>
+          </g>
+        </g>
+    </svg>
+    -->
+    <header>
+        <nav>
+
+            <div class="logo-box">
+
+                <a href="">
+                    <svg class="logo" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 48.92 56.48">
+                    <title>Academlo Logo</title>
+                    <g>
+                        <g>
+                        <path
+                            d="M28.58,15.39H25.16L35.78,36H31.49L20.67,15.71,8.23,38.82H18.94l3-5.43h-3.4l-1.47,2.54h-4l2.69-5.09H25.85l4.28,8H40.67ZM17.23,28.21l3.57-6.6,3.57,6.6Z">
+                        </path>
+                        </g>
+                    </g>
+                    </svg>
+                    <span>STORE</span>
+                </a>
+
+                <ul>
+                    <li> <a href="#">Home    </a>  </li>
+                    <li> <a href="#">Products</a>  </li>
+                </ul>
+
+            </div>
+
+            <div class="icons-box">
+
+                <i id="themeBtn" class='bx bx-sun' onclick="changeTheme()"></i>
+
+                <div class="box-shop" onclick="showBox('cart-box')">
+                    <i class='bx bx-shopping-bag' ></i>
+                    <span class="counter">0</span>
+                </div>
+
+                <i class='bx bx-home-alt-2' onclick="showBox('menu-box')"></i>
+
+            </div>
+
+        </nav>
+
+    <div id="cart-box" class="cart-box">
+        <i class='bx bx-x' onclick="showBox('cart-box')"></i>
+        <h2>My cart</h2>
+    </div>
+
+    <div id="menu-box" class="menu-box">
+        <i class='bx bx-x' onclick="showBox('menu-box')"></i>
+        <ul>
+            <li> <a href="#" onclick="showBox('menu-box')">Home    </a>  </li>
+            <li> <a href="#" onclick="showBox('menu-box')">Products</a>  </li>
+        </ul>
+    </div>
+
+    </header>
+
+
+
+
+
+    <script src="/assets/js/main.js" ></script>
+</body>
+
+</html>
