@@ -33,6 +33,7 @@ header{
     height: 3rem;
     width: 100%;
     background-color: transparent;
+    z-index: 5;
 }
 
 nav{
@@ -124,7 +125,7 @@ nav{
     margin: 0 2rem;
 }
 
-.quantity{
+.quantities{
     display: flex;
     justify-content: space-between;
     margin-top: 8rem;
@@ -189,9 +190,6 @@ nav{
     .menu-box.show ,.bx-menu{
         display: none;
     }
-
-
-
-
-
 }
+
+

@@ -84,40 +84,61 @@
 
         </nav>
 
-    <div id="cart-box" class="cart-box">
-        <i class='bx bx-x' onclick="showBox('cart-box')"></i>
-        <h2>My cart</h2>
-        <div>
-            <figure>
-                <img src="/assets/images/empty-cart.png" alt="">
-            </figure>
-            <h3>Your cart is empty</h3>
-            <p>you can add items to your cart clicking on the '+' button on the product page.</p>
-            <div class="quantity">
-                <div>
-                    <span>0</span>
-                    <span>items</span>
+        <div id="cart-box" class="cart-box">
+            <i class='bx bx-x' onclick="showBox('cart-box')"></i>
+            <h2>My cart</h2>
+            <div>
+                <figure>
+                    <img src="/assets/images/empty-cart.png" alt="">
+                </figure>
+                <h3>Your cart is empty</h3>
+                <p>you can add items to your cart clicking on the '+' button on the product page.</p>
+                <div class="quantities">
+                    <div>
+                        <span>0</span>
+                        <span>items</span>
+                    </div>
+                    <div>
+                        <span>$</span>
+                        <span>0</span>
+                    </div>
                 </div>
-                <div>
-                    <span>$</span>
-                    <span>0</span>
+                <div class="checkout">
+                    <button>✔ Checkout</button>
                 </div>
-            </div>
-            <div class="checkout">
-                <button>✔ Checkout</button>
             </div>
         </div>
-    </div>
 
-    <div id="menu-box" class="menu-box">
-        <i class='bx bx-x' onclick="showBox('menu-box')"></i>
-        <ul>
-            <li> <a href="#" onclick="showBox('menu-box')">Home    </a>  </li>
-            <li> <a href="#" onclick="showBox('menu-box')">Products</a>  </li>
-        </ul>
-    </div>
+        <div id="menu-box" class="menu-box">
+            <i class='bx bx-x' onclick="showBox('menu-box')"></i>
+            <ul>
+                <li> <a href="#" onclick="showBox('menu-box')">Home    </a>  </li>
+                <li> <a href="#" onclick="showBox('menu-box')">Products</a>  </li>
+            </ul>
+        </div>
 
     </header>
+
+    <main class="home">
+        <figure>
+            <img src="/assets/images/home.png" alt="">
+        </figure>
+        <div class="home-info">
+            <h2>New Sweatshirt<br>COLLECTIONS 2022</h2>
+            <P>
+                Lastest arrival of the new Hanes Midweight Crewnecks sweatshirt import from the 2022 series, with a modern design.
+            </P>
+            <div class="home-info-price">
+                <span>$</span>
+                <span>14</span>
+            </div>
+            <div class="home-info-buttons">
+                <button class="hib-1">Discover</button>
+                <button class="hib-2">Add to car</button>
+            </div>
+        </div>
+    </main>
+
 
 
 
