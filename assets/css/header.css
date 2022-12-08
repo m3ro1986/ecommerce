@@ -145,6 +145,11 @@ nav{
     color: var(--text-color);
 }
 
+.checkout button:hover{
+    background-color: var(--first-color);
+    color: var(--text-color);
+}
+
 .menu-box.show{
     display: flex;
     position: fixed;
