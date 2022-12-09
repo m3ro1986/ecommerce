@@ -17,3 +17,12 @@ function showBox ( box ) {
     document.getElementById( box ).classList.toggle( 'show' )
 }
 
+document.getElementById('hib-1').addEventListener( 'mouseover' , () => {
+    document.getElementById('hib-1').classList.replace('hib-1', 'hib-2')
+    document.getElementById('hib-2').classList.replace('hib-2', 'hib-1')
+})
+
+document.getElementById('hib-1').addEventListener( 'mouseout' , () => {
+    document.getElementById('hib-1').classList.replace('hib-2', 'hib-1')
+    document.getElementById('hib-2').classList.replace('hib-1', 'hib-2')
+})
