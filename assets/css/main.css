@@ -2,6 +2,7 @@
     position: relative;
     max-width: 1024px;
     margin: 0 auto;
+    font-size: 20px;
 }
 
 .home figure{
@@ -40,6 +41,7 @@
     width: 5rem;
     border: none;
     background-color: grey;
+    color: white;
 }
 
 .hib-2{
@@ -48,6 +50,7 @@
     border: black solid 2px;
     background-color: black;
     color: white;
+    font-size: 16px;
 }
 /* 
 .hib-1:hover {
@@ -66,6 +69,6 @@
         top: 8rem;
         left: 0;
         width: 40%;
-        font-size: 20px;
+        font-size: 25px;
     }
 }

@@ -1,0 +1,23 @@
+.filter{
+    display: flex;
+    flex-wrap: wrap;
+    padding: 0 2rem;
+    max-width: 1024px;
+    margin: 0 auto;
+    gap: 1rem;
+    justify-content: space-between;
+    margin-top: 3rem;
+}
+
+.filter-box{
+    display: flex;
+    flex-direction: column;
+    border-right: 2px solid var(--text-color);
+    padding-right: 1rem ;
+}
+
+@media screen and ( min-width: 1024px ) {
+    .filter{
+        font-size: 25px;
+    }
+}
