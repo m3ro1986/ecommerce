@@ -1,6 +1,6 @@
 .filter{
-    display: flex;
-    flex-wrap: wrap;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
     padding: 0 2rem;
     max-width: 1024px;
     margin: 0 auto;
@@ -13,7 +13,17 @@
     display: flex;
     flex-direction: column;
     border-right: 2px solid var(--text-color);
-    padding-right: 1rem ;
+    text-align: center;
+    
+}
+@media screen and ( min-width: 768px ) {
+    .filter{
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+    }
+}
+
+.filter-box:hover{
+    cursor: pointer;
 }
 
 @media screen and ( min-width: 1024px ) {
