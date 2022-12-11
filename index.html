@@ -88,19 +88,21 @@
             <i class='bx bx-x' onclick="showBox('cart-box')"></i>
             <h2>My cart</h2>
             <div>
-                <figure>
-                    <img src="/assets/images/empty-cart.png" alt="">
-                </figure>
-                <h3>Your cart is empty</h3>
-                <p>you can add items to your cart clicking on the '+' button on the product page.</p>
+                <div id="container-cards">
+                    <figure>
+                        <img src="/assets/images/empty-cart.png" alt="">
+                    </figure>
+                    <h3>Your cart is empty</h3>
+                    <p>you can add items to your cart clicking on the '+' button on the product page.</p>
+                </div>
                 <div class="quantities">
                     <div>
-                        <span>0</span>
+                        <span id="quantity">0</span>
                         <span>items</span>
                     </div>
                     <div>
                         <span>$</span>
-                        <span>0</span>
+                        <span id="total">0</span>
                     </div>
                 </div>
                 <div class="checkout">

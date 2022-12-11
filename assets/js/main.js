@@ -74,6 +74,24 @@ function addProduct( id ){
         alert("¡No puede agregar mas productos porque ya no hay en stock!")
     }
 
+    let products = items.filter( ele => ele.quantitySelected > 0 )
+
     document.getElementById( 'counter' ).innerHTML = sumCart( items )[0]
 
 }
+
+function removeProduct( id ){
+    // let item = items.find( ele => { ele.id === id})
+    
+    if ( items[ id - 1 ].quantitySelected > 0 ) {
+        items[ id - 1 ].quantitySelected--
+    }
+
+    document.getElementById( 'counter' ).innerHTML = sumCart( items )[0]
+
+}
+
+function showproducts ( array ) {
+    let content = document.getElementById( 'container-cards' )
+}
+
