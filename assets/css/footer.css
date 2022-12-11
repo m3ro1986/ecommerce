@@ -23,6 +23,7 @@ footer{
 
 .footer-div > h4{
     margin-bottom: 2rem;
+    color: var(--first-color);
 }
 
 .footer-div a{
