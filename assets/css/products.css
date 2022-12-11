@@ -8,6 +8,8 @@
 .product img{
     width: 100%;
     background-color: grey;
+    border-radius: 1rem 1rem 0 0;
+    /* transition: all 300ms; */
 }
 
 .product{
@@ -37,11 +39,17 @@
     font-size: 3rem;
     background-color: var(--container-color);
     border-radius: 50%;
+    transition: all 300ms;
 }
 
 .product > i:hover{
     cursor: pointer;
+    transform: scale(1.15);
 }
+/* 
+.product img:hover{
+    transform: scale(0.95);
+} */
 
 
 
