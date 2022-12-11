@@ -19,4 +19,8 @@ body{
   font-family: var(--body-font);
 }
 
+img{
+  width: 100%;
+}
+
 

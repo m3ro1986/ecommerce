@@ -128,7 +128,7 @@ nav{
 .quantities{
     display: flex;
     justify-content: space-between;
-    margin-top: 8rem;
+    margin-top: 3rem;
 }
 
 .checkout{
